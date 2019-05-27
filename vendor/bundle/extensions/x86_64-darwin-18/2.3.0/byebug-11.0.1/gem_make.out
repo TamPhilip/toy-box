@@ -1,0 +1,19 @@
+current directory: /Users/philiptam/Projects/Ruby/Tutorial/environment/toy-app/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+/Users/philiptam/.rvm/rubies/ruby-2.3.7/bin/ruby -I /Users/philiptam/.rvm/rubies/ruby-2.3.7/lib/ruby/site_ruby/2.3.0 -r ./siteconf20190527-84940-29jybf.rb extconf.rb
+creating Makefile
+
+current directory: /Users/philiptam/Projects/Ruby/Tutorial/environment/toy-app/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/philiptam/Projects/Ruby/Tutorial/environment/toy-app/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/philiptam/Projects/Ruby/Tutorial/environment/toy-app/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 byebug.bundle ./.gem.20190527-84940-1pan7tn/byebug

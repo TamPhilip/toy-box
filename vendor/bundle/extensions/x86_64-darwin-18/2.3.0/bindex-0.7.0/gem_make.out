@@ -1,0 +1,15 @@
+current directory: /Users/philiptam/Projects/Ruby/Tutorial/environment/toy-app/vendor/bundle/gems/bindex-0.7.0/ext/skiptrace
+/Users/philiptam/.rvm/rubies/ruby-2.3.7/bin/ruby -I /Users/philiptam/.rvm/rubies/ruby-2.3.7/lib/ruby/site_ruby/2.3.0 -r ./siteconf20190527-84940-br0l6r.rb extconf.rb
+creating Makefile
+
+current directory: /Users/philiptam/Projects/Ruby/Tutorial/environment/toy-app/vendor/bundle/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/philiptam/Projects/Ruby/Tutorial/environment/toy-app/vendor/bundle/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/cruby.bundle
+
+current directory: /Users/philiptam/Projects/Ruby/Tutorial/environment/toy-app/vendor/bundle/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20190527-84940-ey6bb7/skiptrace
