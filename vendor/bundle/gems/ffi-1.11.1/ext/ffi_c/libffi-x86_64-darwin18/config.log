@@ -30,15 +30,15 @@ Kernel configured for up to 4 processors.
 Processor type: x86_64h (Intel x86-64h Haswell)
 Processors active: 0 1 2 3
 Primary memory available: 8.00 gigabytes
-Default processor set: 410 tasks, 1805 threads, 4 processors
-Load average: 9.73, Mach factor: 0.47
+Default processor set: 411 tasks, 1819 threads, 4 processors
+Load average: 6.04, Mach factor: 0.88
 /bin/machine           = unknown
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
 
-PATH: /Users/philiptam/.rvm/gems/ruby-2.3.7/bin
-PATH: /Users/philiptam/.rvm/gems/ruby-2.3.7@global/bin
-PATH: /Users/philiptam/.rvm/rubies/ruby-2.3.7/bin
+PATH: /Users/philiptam/.rvm/gems/ruby-2.6.3/bin
+PATH: /Users/philiptam/.rvm/gems/ruby-2.6.3@global/bin
+PATH: /Users/philiptam/.rvm/rubies/ruby-2.6.3/bin
 PATH: /Users/philiptam/.rvm/bin
 PATH: /usr/local/opt/ruby/bin
 PATH: /Users/philiptam/.rbenv/shims
@@ -127,7 +127,7 @@ clang: error: unknown argument '-qversion', did you mean '--version'?
 clang: error: no input files
 configure:3835: $? = 1
 configure:3855: checking whether the C compiler works
-configure:3877: gcc  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -L/usr/local/opt/ruby/lib conftest.c  >&5
+configure:3877: gcc  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -L/usr/local/opt/ruby/lib conftest.c  >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -138,7 +138,7 @@ configure:3929: result: yes
 configure:3932: checking for C compiler default output file name
 configure:3934: result: a.out
 configure:3940: checking for suffix of executables
-configure:3947: gcc -o conftest  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -L/usr/local/opt/ruby/lib conftest.c  >&5
+configure:3947: gcc -o conftest  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -L/usr/local/opt/ruby/lib conftest.c  >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -147,7 +147,7 @@ In file included from <built-in>:361:
 configure:3951: $? = 0
 configure:3973: result: 
 configure:3995: checking whether we are cross compiling
-configure:4003: gcc -o conftest  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -L/usr/local/opt/ruby/lib conftest.c  >&5
+configure:4003: gcc -o conftest  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -L/usr/local/opt/ruby/lib conftest.c  >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -158,7 +158,7 @@ configure:4014: ./conftest
 configure:4018: $? = 0
 configure:4033: result: no
 configure:4038: checking for suffix of object files
-configure:4060: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:4060: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -167,7 +167,7 @@ In file included from <built-in>:361:
 configure:4064: $? = 0
 configure:4085: result: o
 configure:4089: checking whether we are using the GNU C compiler
-configure:4108: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:4108: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -176,7 +176,7 @@ In file included from <built-in>:361:
 configure:4108: $? = 0
 configure:4117: result: yes
 configure:4126: checking whether gcc accepts -g
-configure:4146: gcc -c -g -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:4146: gcc -c -g -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -202,7 +202,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:4161: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:4161: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -228,7 +228,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:4177: gcc -c -g -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:4177: gcc -c -g -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -237,7 +237,7 @@ In file included from <built-in>:361:
 configure:4177: $? = 0
 configure:4187: result: yes
 configure:4204: checking for gcc option to accept ISO C89
-configure:4267: gcc  -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:4267: gcc  -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -282,7 +282,7 @@ clang: error: unknown argument '-qversion', did you mean '--version'?
 clang: error: no input files
 configure:4682: $? = 1
 configure:4686: checking whether we are using the GNU C++ compiler
-configure:4705: g++ -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.cpp >&5
+configure:4705: g++ -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.cpp >&5
 In file included from <built-in>:373:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -291,7 +291,7 @@ In file included from <built-in>:373:
 configure:4705: $? = 0
 configure:4714: result: yes
 configure:4723: checking whether g++ accepts -g
-configure:4743: g++ -c -g -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.cpp >&5
+configure:4743: g++ -c -g -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.cpp >&5
 In file included from <built-in>:373:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -317,7 +317,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:4758: g++ -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.cpp >&5
+configure:4758: g++ -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.cpp >&5
 In file included from <built-in>:373:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -343,7 +343,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:4774: g++ -c -g -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.cpp >&5
+configure:4774: g++ -c -g -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.cpp >&5
 In file included from <built-in>:373:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -372,7 +372,7 @@ configure:5567: result: no
 configure:5579: checking for BSD- or MS-compatible name lister (nm)
 configure:5633: result: /usr/bin/nm -B
 configure:5763: checking the name lister (/usr/bin/nm -B) interface
-configure:5770: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:5770: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -405,7 +405,7 @@ configure:6624: checking for ar
 configure:6640: found /usr/bin/ar
 configure:6651: result: ar
 configure:6688: checking for archiver @FILE support
-configure:6705: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:6705: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -423,7 +423,7 @@ configure:6888: checking for ranlib
 configure:6904: found /usr/bin/ranlib
 configure:6915: result: ranlib
 configure:7017: checking command to parse /usr/bin/nm -B output from gcc object
-configure:7170: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:7170: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -433,7 +433,7 @@ configure:7173: $? = 0
 configure:7177: /usr/bin/nm -B conftest.o \| sed -n -e 's/^.*[ ]\([BCDEGRST][BCDEGRST]*\)[ ][ ]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p' | sed '/ __gnu_lto/d' \> conftest.nm
 configure:7180: $? = 0
 cannot find nm_test_var in conftest.nm
-configure:7170: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:7170: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -442,7 +442,7 @@ In file included from <built-in>:361:
 configure:7173: $? = 0
 configure:7177: /usr/bin/nm -B conftest.o \| sed -n -e 's/^.*[ ]\([BCDEGRST][BCDEGRST]*\)[ ][ ]*_\([_A-Za-z][_A-Za-z0-9]*\)$/\1 _\2 \2/p' | sed '/ __gnu_lto/d' \> conftest.nm
 configure:7180: $? = 0
-configure:7246: gcc -o conftest  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -L/usr/local/opt/ruby/lib conftest.c conftstm.o >&5
+configure:7246: gcc -o conftest  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -L/usr/local/opt/ruby/lib conftest.c conftstm.o >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -479,7 +479,7 @@ configure:8320: checking for -single_module linker flag
 gcc  -L/usr/local/opt/ruby/lib -o libconftest.dylib -dynamiclib -Wl,-single_module conftest.c
 configure:8353: result: yes
 configure:8356: checking for -exported_symbols_list linker flag
-configure:8376: gcc -o conftest  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -L/usr/local/opt/ruby/lib -Wl,-exported_symbols_list,conftest.sym conftest.c  >&5
+configure:8376: gcc -o conftest  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -L/usr/local/opt/ruby/lib -Wl,-exported_symbols_list,conftest.sym conftest.c  >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -494,14 +494,14 @@ ranlib libconftest.a
 gcc  -L/usr/local/opt/ruby/lib -o conftest conftest.c -Wl,-force_load,./libconftest.a
 configure:8421: result: yes
 configure:8498: checking how to run the C preprocessor
-configure:8529: gcc -E -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c
+configure:8529: gcc -E -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
                         ^
 1 warning generated.
 configure:8529: $? = 0
-configure:8543: gcc -E -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c
+configure:8543: gcc -E -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -524,14 +524,14 @@ configure: failed program was:
 | /* end confdefs.h.  */
 | #include <ac_nonexistent.h>
 configure:8568: result: gcc -E
-configure:8588: gcc -E -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c
+configure:8588: gcc -E -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
                         ^
 1 warning generated.
 configure:8588: $? = 0
-configure:8602: gcc -E -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c
+configure:8602: gcc -E -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -554,7 +554,7 @@ configure: failed program was:
 | /* end confdefs.h.  */
 | #include <ac_nonexistent.h>
 configure:8631: checking for ANSI C header files
-configure:8651: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:8651: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -571,7 +571,7 @@ In file included from <built-in>:361:
 #define RUBY_EXTCONF_H \"extconf.h\"
                         ^
 1 warning generated.
-configure:8724: gcc -o conftest  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -L/usr/local/opt/ruby/lib conftest.c  >&5
+configure:8724: gcc -o conftest  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -L/usr/local/opt/ruby/lib conftest.c  >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -582,7 +582,7 @@ configure:8724: ./conftest
 configure:8724: $? = 0
 configure:8735: result: yes
 configure:8748: checking for sys/types.h
-configure:8748: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:8748: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -591,7 +591,7 @@ In file included from <built-in>:361:
 configure:8748: $? = 0
 configure:8748: result: yes
 configure:8748: checking for sys/stat.h
-configure:8748: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:8748: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -600,7 +600,7 @@ In file included from <built-in>:361:
 configure:8748: $? = 0
 configure:8748: result: yes
 configure:8748: checking for stdlib.h
-configure:8748: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:8748: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -609,7 +609,7 @@ In file included from <built-in>:361:
 configure:8748: $? = 0
 configure:8748: result: yes
 configure:8748: checking for string.h
-configure:8748: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:8748: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -618,7 +618,7 @@ In file included from <built-in>:361:
 configure:8748: $? = 0
 configure:8748: result: yes
 configure:8748: checking for memory.h
-configure:8748: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:8748: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -627,7 +627,7 @@ In file included from <built-in>:361:
 configure:8748: $? = 0
 configure:8748: result: yes
 configure:8748: checking for strings.h
-configure:8748: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:8748: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -636,7 +636,7 @@ In file included from <built-in>:361:
 configure:8748: $? = 0
 configure:8748: result: yes
 configure:8748: checking for inttypes.h
-configure:8748: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:8748: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -645,7 +645,7 @@ In file included from <built-in>:361:
 configure:8748: $? = 0
 configure:8748: result: yes
 configure:8748: checking for stdint.h
-configure:8748: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:8748: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -654,7 +654,7 @@ In file included from <built-in>:361:
 configure:8748: $? = 0
 configure:8748: result: yes
 configure:8748: checking for unistd.h
-configure:8748: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:8748: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -663,7 +663,7 @@ In file included from <built-in>:361:
 configure:8748: $? = 0
 configure:8748: result: yes
 configure:8762: checking for dlfcn.h
-configure:8762: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:8762: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -674,7 +674,7 @@ configure:8762: result: yes
 configure:9029: checking for objdir
 configure:9044: result: .libs
 configure:9308: checking if gcc supports -fno-rtti -fno-exceptions
-configure:9326: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fno-rtti -fno-exceptions conftest.c >&5
+configure:9326: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fno-rtti -fno-exceptions conftest.c >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -685,7 +685,7 @@ configure:9343: result: yes
 configure:9701: checking for gcc option to produce PIC
 configure:9708: result: -fno-common -DPIC
 configure:9716: checking if gcc PIC flag -fno-common -DPIC works
-configure:9734: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fno-common -DPIC -DPIC conftest.c >&5
+configure:9734: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fno-common -DPIC -DPIC conftest.c >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -696,7 +696,7 @@ configure:9751: result: yes
 configure:9780: checking if gcc static flag -static works
 configure:9808: result: no
 configure:9823: checking if gcc supports -c -o file.o
-configure:9844: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -o out/conftest2.o conftest.c >&5
+configure:9844: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -o out/conftest2.o conftest.c >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -721,14 +721,14 @@ configure:13056: result: yes
 configure:13059: checking whether to build static libraries
 configure:13063: result: no
 configure:13086: checking how to run the C++ preprocessor
-configure:13113: g++ -E -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.cpp
+configure:13113: g++ -E -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.cpp
 In file included from <built-in>:373:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
                         ^
 1 warning generated.
 configure:13113: $? = 0
-configure:13127: g++ -E -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.cpp
+configure:13127: g++ -E -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.cpp
 In file included from <built-in>:373:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -763,14 +763,14 @@ configure: failed program was:
 | /* end confdefs.h.  */
 | #include <ac_nonexistent.h>
 configure:13152: result: g++ -E
-configure:13172: g++ -E -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.cpp
+configure:13172: g++ -E -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.cpp
 In file included from <built-in>:373:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
                         ^
 1 warning generated.
 configure:13172: $? = 0
-configure:13186: g++ -E -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.cpp
+configure:13186: g++ -E -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.cpp
 In file included from <built-in>:373:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -810,7 +810,7 @@ configure:13422: checking if the linker (ld) is GNU ld
 configure:13437: result: no
 configure:13492: checking whether the g++ linker (ld) supports shared libraries
 configure:14565: result: yes
-configure:14601: g++ -c -g -O2 -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.cpp >&5
+configure:14601: g++ -c -g -O2 -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.cpp >&5
 In file included from <built-in>:373:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -820,7 +820,7 @@ configure:14604: $? = 0
 configure:15085: checking for g++ option to produce PIC
 configure:15092: result: -fno-common -DPIC
 configure:15100: checking if g++ PIC flag -fno-common -DPIC works
-configure:15118: g++ -c -g -O2 -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fno-common -DPIC -DPIC conftest.cpp >&5
+configure:15118: g++ -c -g -O2 -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fno-common -DPIC -DPIC conftest.cpp >&5
 In file included from <built-in>:373:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -831,7 +831,7 @@ configure:15135: result: yes
 configure:15158: checking if g++ static flag -static works
 configure:15186: result: no
 configure:15198: checking if g++ supports -c -o file.o
-configure:15219: g++ -c -g -O2 -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -o out/conftest2.o conftest.cpp >&5
+configure:15219: g++ -c -g -O2 -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -o out/conftest2.o conftest.cpp >&5
 In file included from <built-in>:373:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -848,7 +848,7 @@ configure:16268: result: darwin18.5.0 dyld
 configure:16333: checking how to hardcode library paths into programs
 configure:16358: result: immediate
 configure:16426: checking size of size_t
-configure:16431: gcc -o conftest  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -L/usr/local/opt/ruby/lib conftest.c  >&5
+configure:16431: gcc -o conftest  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -L/usr/local/opt/ruby/lib conftest.c  >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -859,7 +859,7 @@ configure:16431: ./conftest
 configure:16431: $? = 0
 configure:16445: result: 8
 configure:16456: checking for C compiler vendor
-configure:16501: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:16501: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -905,7 +905,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:16501: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:16501: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -951,7 +951,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:16501: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:16501: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -997,7 +997,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:16501: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:16501: gcc -c  -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -1008,7 +1008,7 @@ configure:16509: result: clang
 configure:17335: : CFLAGS already contains 
 configure:17338: $? = 0
 configure:17360: checking CFLAGS for maximum warnings
-configure:17380: gcc -c  -warn all  -warn all -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:17380: gcc -c  -warn all  -warn all -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 clang: error: unknown argument: '-warn'
 clang: error: unknown argument: '-warn'
 clang: error: no such file or directory: 'all'
@@ -1046,7 +1046,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:17380: gcc -c  -pedantic  -Wall -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:17380: gcc -c  -pedantic  -Wall -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -1059,7 +1059,7 @@ configure:17407: $? = 0
 configure:17437: checking whether to enable maintainer-specific portions of Makefiles
 configure:17446: result: no
 configure:17462: checking sys/mman.h usability
-configure:17462: gcc -c  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:17462: gcc -c  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:362:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -1068,7 +1068,7 @@ In file included from <built-in>:362:
 configure:17462: $? = 0
 configure:17462: result: yes
 configure:17462: checking sys/mman.h presence
-configure:17462: gcc -E -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c
+configure:17462: gcc -E -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c
 In file included from <built-in>:361:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -1079,7 +1079,7 @@ configure:17462: result: yes
 configure:17462: checking for sys/mman.h
 configure:17462: result: yes
 configure:17475: checking for mmap
-configure:17475: gcc -o conftest  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -L/usr/local/opt/ruby/lib conftest.c  >&5
+configure:17475: gcc -o conftest  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -L/usr/local/opt/ruby/lib conftest.c  >&5
 In file included from <built-in>:362:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -1088,7 +1088,7 @@ In file included from <built-in>:362:
 configure:17475: $? = 0
 configure:17475: result: yes
 configure:17475: checking for mkostemp
-configure:17475: gcc -o conftest  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -L/usr/local/opt/ruby/lib conftest.c  >&5
+configure:17475: gcc -o conftest  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -L/usr/local/opt/ruby/lib conftest.c  >&5
 In file included from <built-in>:362:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -1105,7 +1105,7 @@ configure:17523: result: yes
 configure:17525: checking whether mmap from /dev/zero works
 configure:17547: result: no
 configure:17551: checking for MAP_ANON(YMOUS)
-configure:17574: gcc -c  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:17574: gcc -c  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:362:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -1121,7 +1121,7 @@ configure:17604: result: yes
 configure:17647: checking for ANSI C header files
 configure:17751: result: yes
 configure:17761: checking for memcpy
-configure:17761: gcc -o conftest  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -L/usr/local/opt/ruby/lib conftest.c  >&5
+configure:17761: gcc -o conftest  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -L/usr/local/opt/ruby/lib conftest.c  >&5
 In file included from <built-in>:362:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -1134,14 +1134,14 @@ conftest.c:53:6: note: 'memcpy' is a builtin with type 'void *(void *, const voi
 configure:17761: $? = 0
 configure:17761: result: yes
 configure:17770: checking for size_t
-configure:17770: gcc -c  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:17770: gcc -c  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:362:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
                         ^
 1 warning generated.
 configure:17770: $? = 0
-configure:17770: gcc -c  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:17770: gcc -c  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:362:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -1225,7 +1225,7 @@ configure: failed program was:
 | }
 configure:17770: result: yes
 configure:17783: checking for working alloca.h
-configure:17800: gcc -o conftest  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -L/usr/local/opt/ruby/lib conftest.c  >&5
+configure:17800: gcc -o conftest  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -L/usr/local/opt/ruby/lib conftest.c  >&5
 In file included from <built-in>:362:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -1234,7 +1234,7 @@ In file included from <built-in>:362:
 configure:17800: $? = 0
 configure:17808: result: yes
 configure:17816: checking for alloca
-configure:17853: gcc -o conftest  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -L/usr/local/opt/ruby/lib conftest.c  >&5
+configure:17853: gcc -o conftest  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -L/usr/local/opt/ruby/lib conftest.c  >&5
 In file included from <built-in>:362:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -1243,7 +1243,7 @@ In file included from <built-in>:362:
 configure:17853: $? = 0
 configure:17861: result: yes
 configure:17972: checking size of double
-configure:17977: gcc -o conftest  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -L/usr/local/opt/ruby/lib conftest.c  >&5
+configure:17977: gcc -o conftest  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -L/usr/local/opt/ruby/lib conftest.c  >&5
 In file included from <built-in>:362:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -1254,7 +1254,7 @@ configure:17977: ./conftest
 configure:17977: $? = 0
 configure:17991: result: 8
 configure:18005: checking size of long double
-configure:18010: gcc -o conftest  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -L/usr/local/opt/ruby/lib conftest.c  >&5
+configure:18010: gcc -o conftest  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -L/usr/local/opt/ruby/lib conftest.c  >&5
 In file included from <built-in>:362:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -1265,21 +1265,21 @@ configure:18010: ./conftest
 configure:18010: $? = 0
 configure:18024: result: 16
 configure:18057: checking whether byte ordering is bigendian
-configure:18072: gcc -c  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:18072: gcc -c  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:362:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
                         ^
 1 warning generated.
 configure:18072: $? = 0
-configure:18117: gcc -c  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:18117: gcc -c  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:362:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
                         ^
 1 warning generated.
 configure:18117: $? = 0
-configure:18135: gcc -c  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:18135: gcc -c  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:362:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -1340,7 +1340,7 @@ configure: failed program was:
 | }
 configure:18263: result: no
 configure:18282: checking assembler .cfi pseudo-op support
-configure:18300: gcc -c  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:18300: gcc -c  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:362:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -1351,7 +1351,7 @@ configure:18308: result: yes
 configure:18395: checking assembler supports pc related relocs
 configure:18408: result: yes
 configure:18454: checking for _ prefix in compiled symbols
-configure:18464: gcc -c  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
+configure:18464: gcc -c  -Wall -fexceptions -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   conftest.c >&5
 In file included from <built-in>:362:
 <command line>:1:25: warning: missing terminating '"' character [-Winvalid-pp-token]
 #define RUBY_EXTCONF_H \"extconf.h\"
@@ -1427,7 +1427,7 @@ ac_cv_env_CCASFLAGS_value=
 ac_cv_env_CCAS_set=
 ac_cv_env_CCAS_value=
 ac_cv_env_CPPFLAGS_set=set
-ac_cv_env_CPPFLAGS_value='-DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT  '
+ac_cv_env_CPPFLAGS_value='-DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT  '
 ac_cv_env_CPP_set=
 ac_cv_env_CPP_value=
 ac_cv_env_CXXCPP_set=
@@ -1570,7 +1570,7 @@ CCASFLAGS=''
 CCDEPMODE='depmode=none'
 CFLAGS=' -Wall -fexceptions'
 CPP='gcc -E'
-CPPFLAGS='-DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT  '
+CPPFLAGS='-DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT  '
 CXX='g++'
 CXXCPP='g++ -E'
 CXXDEPMODE='depmode=none'

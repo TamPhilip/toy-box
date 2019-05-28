@@ -155,7 +155,7 @@ CCASFLAGS =
 CCDEPMODE = depmode=none
 CFLAGS =  -Wall -fexceptions
 CPP = gcc -E
-CPPFLAGS = -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT  
+CPPFLAGS = -DRUBY_EXTCONF_H=\"extconf.h\" -I/usr/local/opt/ruby/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT  
 CXX = g++
 CXXCPP = g++ -E
 CXXDEPMODE = depmode=none
